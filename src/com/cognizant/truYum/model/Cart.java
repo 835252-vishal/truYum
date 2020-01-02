@@ -3,37 +3,38 @@ package com.cognizant.truYum.model;
 import java.util.List;
 
 public class Cart {
-private List<MenuItem> menuItemList;
-private double total;
-public Cart() {
-	// TODO Auto-generated constructor stub
-}
+	private List<MenuItem> menuItemList;
+	private double total;
 
-public Cart(List<MenuItem> menuItemList, double total) {
-	super();
-	this.menuItemList = menuItemList;
-	this.total = total;
-}
+	public Cart() {
+		// TODO Auto-generated constructor stub
+	}
 
-public List<MenuItem> getMenuItemList() {
-	return menuItemList;
-}
+	public Cart(List<MenuItem> menuItemList, double total) {
+		super();
+		this.menuItemList = menuItemList;
+		this.total = total;
+	}
 
-public void setMenuItemList(List<MenuItem> menuItemList) {
-	this.menuItemList = menuItemList;
-}
+	public List<MenuItem> getMenuItemList() {
+		return menuItemList;
+	}
 
-public double getTotal() {
-	return total;
-}
+	public void setMenuItemList(List<MenuItem> menuItemList) {
+		this.menuItemList = menuItemList;
+	}
 
-public void setTotal(double total) {
-	this.total = total;
-}
+	public double getTotal() {
+		return total;
+	}
 
-@Override
-public String toString() {
-	return "Cart [menuItemList=" + menuItemList + ", total=" + total + "]";
-}
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [menuItemList=" + menuItemList + ", total=" + total + "]";
+	}
 
 }
