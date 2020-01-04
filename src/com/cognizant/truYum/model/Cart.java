@@ -1,4 +1,4 @@
-package com.cognizant.truYum.model;
+package com.cognizant.truyum.model;
 
 import java.util.List;
 

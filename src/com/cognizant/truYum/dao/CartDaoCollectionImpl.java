@@ -1,11 +1,11 @@
-package com.cognizant.truYum.dao;
+package com.cognizant.truyum.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.cognizant.truYum.model.Cart;
-import com.cognizant.truYum.model.MenuItem;
+import com.cognizant.truyum.model.Cart;
+import com.cognizant.truyum.model.MenuItem;
 
 public class CartDaoCollectionImpl implements CartDao {
     private static HashMap<Long, Cart> userCarts;
