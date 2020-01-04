@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Menu Item</title>
+<link rel="shortcut icon" href="images/truyum-logo-dark.png" />
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script src="js/script.js">  
+</script>
+</head>
+<body>
+    <header>
+        <h2 class="head">
+            <span>truYum</span>
+        </h2>
+        <img class="truyum" src="images\truyum-logo-light.png" alt="truyum" width=50 height=50 />
+        <nav>
+            <a class="nav-menu" href="menu-item-list-admin.html">Menu</a>
+        </nav>
+    </header>
+    <section>
+        <form action="edit-menu-item-status.html" name="validation" method="post"
+            onsubmit="return script()">
+            <table cellspacing="10">
+                <tr>
+                    <th colspan="4"><h1>Edit Menu Item</h1></th>
+                </tr>
+                <tr>
+                    <td colspan="4"><b><label for="name">Name</label></b></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input id="name" type="text" name="title" size="75"
+                        autocomplete="off" /></td>
+                    <span id="sname"></span>
+                </tr>
+                <tr>
+                    <td><b><label for="price">Price (Rs.)</label></b></td>
+                    <td><b><label for="active1">Active</label></b></td>
+                    <td><b><label for="date">Date of Launch</label></b></td>
+                    <td><b><label>Category</label></b></td>
+                </tr>
+                <tr>
+                    <td><input id="price" type="text" name="price" autocomplete="off" /><span
+                        id="pname"></span></td>
+                    <td><input class="active" id="active1" type="radio" name="active" value="yes" /><label>Yes</label> <input
+                        class="active" id="active" type="radio" name="inStock" value="no" /><label>No</label></td>
+                    <td><input id="date" type="date" name="dateOfLaunch" size="15" /><span
+                        id="dname"></span></td>
+                    <span id="spandate"></span>
+                    <td><select name="category">
+                            <option value="">select</option>
+                            <option value="starters">Starters</option>
+                            <option value="main">Main Course</option>
+                            <option value="desserts">Desserts</option>
+                            <option value="drinks">Drinks</option>
+                    </select><span id="cname"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input class="delivery" type="checkbox" value="delivery"
+                        name="freeDelivery" /><label class="free-top"><b>Free Delivery</b></label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="submit" type="submit" name="submit"
+                        value="Save" class="submit" /></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright&nbsp;&copy;&nbsp;2019</p>
+    </footer>
+</body>
+</html>

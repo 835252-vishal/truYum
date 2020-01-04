@@ -13,9 +13,9 @@ public class MenuItemDaoCollectionImplTest {
         testGetMenuItemListAdmin();
         testGetMenuItemListCustomer();
         testModifyMenuItem();
-        testGetMenuItemListAdmin();
+       // testGetMenuItemListAdmin();
         testGetMenuItemListCustomer();
-        testGetMenuItem();
+      //  testGetMenuItem();
     }
 
     static public void testGetMenuItemListAdmin() {

@@ -1,0 +1,115 @@
+/*css style sheet*/
+header {
+    top: 0%;
+    background-color: #303f80;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    height: 8%;
+    width: 100%;
+}
+/*header heading(truYum)/*/
+.head {
+    color: #c7c6c5;
+    margin-left: 2%;
+    position: fixed;
+    top: 0%;
+    font-size: 30px;
+}
+/*header image*/
+.truyum {
+    top: 2%;
+    margin-left: 8%;
+    position: fixed;
+}
+/*navigation menu*/
+.nav-menu {
+    top: 3%;
+    font-size: 20px;
+    margin-left: 80%;
+    color: #f0f1f5;
+    position: fixed;
+}
+/*navigation cart*/
+.nav-cart {
+    top: 3%;
+    font-size: 20px;
+    margin-left: 90%;
+    color: #f0f1f5;
+    position: fixed;
+}
+/*table style*/
+table {
+    top: 20%;
+    position: fixed;
+    margin-left: 9%;
+    color: #13171c;
+}
+/*menu items & cart*/
+table h1 {
+    text-align: left;
+    font-size: 40px;
+}
+/*truYum color*/
+table h2 {
+    color: #37ba13;
+}
+/*cart empty statement*/
+table h3 {
+    color: #a5a6a8;
+}
+/*cart empty(menu item link)*/
+table h3 a {
+    color: #0e55e3;
+}
+/*menu item list admin(name)*/
+.name {
+    text-align: left;
+}
+/*menu item list admin(price)*/
+.price {
+    text-align: right;
+}
+/*menu item list admin(food)*/
+.food {
+    text-align: left;
+}
+/*cart empty(menu item link color)*/
+table a {
+    color: #0f1012;
+}
+
+/*checkbox*/
+.delivery {
+    width: 25px;
+    height: 25px;
+}
+/*free delivery position*/
+.free-top {
+    margin-top: 0.3%;
+    position: fixed;
+}
+/*footer content*/
+footer p {
+    margin-left: 1%;
+    bottom: 2%;
+}
+
+footer {
+    bottom: 0%;
+    background-color: #d3d3db;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    height: 6%;
+    width: 100%;
+}
+/*save button*/
+table .submit {
+    background-color: #303f80;
+    color: #edeef5;
+    border: none;
+    padding: 20px;
+    width: 40%;
+    font-size: 20px;
+}
