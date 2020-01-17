@@ -24,7 +24,7 @@
 		</tr>
 		<tr>
 			<td colspan="3"><c:if test="${removeCartItemStatus==true}">
-					<h3 align="center" id="p">Item removed from cart successfully</h3>
+					<h3 align="center" id="success">Item removed from cart successfully</h3>
 				</c:if></td>
 		</tr>
 		<tr>
@@ -39,7 +39,7 @@
 						<c:when test="${menuItem.isFreeDelivery()==true}">Yes</c:when>
 						<c:otherwise>No</c:otherwise>
 					</c:choose></td>
-				<td align="center" class="price1">${menuItem.getPrice()}</td>
+				<td align="center" class="price1">Rs. ${menuItem.getPrice()}</td>
 
 				<td align="center"><a
 					href="RemoveCart?menuItemId=${menuItem.getId()}" id="h">Delete</a></td>

@@ -21,7 +21,7 @@
 			<th><h1>Edit Menu Item Status</h1></th>
 		</tr>
 		<tr>
-			<th align="left"><h2 id="p">Menu item details saved
+			<th align="left"><h2 id="success">Menu item details saved
 					successfully</h2></th>
 		</tr>
 	</table>

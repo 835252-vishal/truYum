@@ -23,7 +23,7 @@
 		<tr>
 			<th align="left"><h3>
 					<b>No items in cart. Use 'Add to Cart' option in <a
-						href="ShowMenuItemListCustomer" id="l">Menu Item List</a></b>
+						href="ShowMenuItemListCustomer" id="link">Menu Item List</a></b>
 				</h3></th>
 		</tr>
 	</table>

@@ -51,7 +51,7 @@ table h1 {
 	font-size: 40px;
 }
 /*truYum color*/
-#p {
+#success {
 	color: #1eb045;
 }
 /*cart empty statement*/
@@ -59,7 +59,7 @@ table h3 {
 	color: #a5a6a8;
 }
 /*cart empty(menu item link)*/
-#h {
+#edit {
 	color: #1a1918;
 }
 /*menu item list admin(name)*/
@@ -75,7 +75,7 @@ table h3 {
 	text-align: left;
 }
 /*cart empty(menu item link color)*/
-#l {
+#link {
 	color: #3b71db;
 }
 
