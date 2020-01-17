@@ -8,12 +8,9 @@
 <title>Edit Menu Item</title>
 <link rel="shortcut icon" href="images/truyum-logo-dark.png" />
 <link rel="stylesheet" type="text/css" href="styles/style.css" />
-<script src="js/script.js">
-	
-</script>
+<script src="js/script.js"></script>
 </head>
 <body>
-
 	<c:set var="menuItem" value="${menuItem}"></c:set>
 	<header>
 	<h2 class="head">
