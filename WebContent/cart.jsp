@@ -24,7 +24,8 @@
 		</tr>
 		<tr>
 			<td colspan="3"><c:if test="${removeCartItemStatus==true}">
-					<h3 align="center" id="success">Item removed from cart successfully</h3>
+					<h3 align="center" id="success">Item removed from cart
+						successfully</h3>
 				</c:if></td>
 		</tr>
 		<tr>

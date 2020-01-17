@@ -24,7 +24,8 @@
 		</tr>
 		<tr>
 			<td colspan="5"><c:if test="${addCartStatus==true}">
-					<h3 align="center" id="success">Item added to cart successfully</h3>
+					<h3 align="center" id="success">Item added to cart
+						successfully</h3>
 				</c:if></td>
 
 		</tr>
@@ -46,8 +47,8 @@
 				<td align="center">${menuItem.getCategory()}</td>
 
 				<td align="center"><a
-					href="AddToCart?menuItemId=${menuItem.getId()}" id="edit">Add to
-						Cart</a></td>
+					href="AddToCart?menuItemId=${menuItem.getId()}" id="edit">Add
+						to Cart</a></td>
 			</tr>
 		</c:forEach>
 	</table>
