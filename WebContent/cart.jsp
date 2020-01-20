@@ -40,16 +40,19 @@
 						<c:when test="${menuItem.isFreeDelivery()==true}">Yes</c:when>
 						<c:otherwise>No</c:otherwise>
 					</c:choose></td>
-				<td align="center" class="price1">Rs. ${menuItem.getPrice()}</td>
+				<td align="center" class="price1"><f:formatNumber
+						type="currency" currencySymbol="Rs."
+						value="${menuItem.getPrice()}" /></td>
 
 				<td align="center"><a
-					href="RemoveCart?menuItemId=${menuItem.getId()}" id="h">Delete</a></td>
+					href="RemoveCart?menuItemId=${menuItem.getId()}" id="edit">Delete</a></td>
 			</tr>
 		</c:forEach>
 		<tr>
 			<td></td>
 			<td align="left"><b>Total</b></td>
-			<td align="center"><b>Rs. ${cart.getTotal()}</b></td>
+			<td align="center"><b><f:formatNumber type="currency"
+						currencySymbol="Rs." value="${cart.getTotal()}" /></b></td>
 		</tr>
 	</table>
 	<footer>

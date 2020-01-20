@@ -135,9 +135,9 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM//yyy");
+        SimpleDateFormat pattern = new SimpleDateFormat("dd/MM//yyy");
         return String.format("%-10s%-20s%-10s%-10s%-15s%-15s%-10s\n", id, name, price,
-                active == true ? "Yes" : "No", sdf.format(dateOfLaunch), category,
+                active == true ? "Yes" : "No", pattern.format(dateOfLaunch), category,
                 freeDelivery == true ? "Yes" : "No");
     }
 

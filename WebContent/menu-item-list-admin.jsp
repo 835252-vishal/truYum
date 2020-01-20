@@ -32,7 +32,9 @@
 		<c:forEach items="${menuItem}" var="menuItem">
 			<tr>
 				<td align="center" class="food">${menuItem.getName()}</td>
-				<td align="center" class="price1">Rs. ${menuItem.getPrice()}</td>
+				<td align="center" class="price1"><f:formatNumber
+						type="currency" currencySymbol="Rs."
+						value="${menuItem.getPrice()}" /></td>
 				<td align="center"><c:choose>
 						<c:when test="${menuItem.isActive()==true}">Yes</c:when>
 						<c:otherwise>No</c:otherwise>
