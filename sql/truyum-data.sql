@@ -58,7 +58,7 @@ SET
     me_active = 'No',
     me_date_of_launch = '2018-03-15',
     me_category = 'Starters',
-    me_free_delivery = 'NO'
+    me_free_delivery = 'No'
 WHERE
     me_id = 1;
 
@@ -115,3 +115,4 @@ WHERE
 DELETE FROM truyum.cart 
 WHERE
     ct_us_id = 1 AND ct_pr_id = 1 LIMIT 1;    
+    
